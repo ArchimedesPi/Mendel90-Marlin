@@ -1,13 +1,9 @@
 ==========================
 Marlin 3D Printer Firmware
 ==========================
-[![Coverity Scan Build Status](https://scan.coverity.com/projects/2224/badge.svg)](https://scan.coverity.com/projects/2224)
-[![Travis Build Status](https://travis-ci.org/ErikZalm/Marlin.svg)](https://travis-ci.org/ErikZalm/Marlin)
 
 Marlin has a GPL license because I believe in open development.
 Please do not use this code in products (3D printers, CNC etc) that are closed source or are crippled by a patent.
-
-[![Flattr this git repo](http://api.flattr.com/button/flattr-badge-large.png)](https://flattr.com/submit/auto?user_id=ErikZalm&url=https://github.com/ErikZalm/Marlin&title=Marlin&language=&tags=github&category=software)
 
 Quick Information
 ===================
@@ -19,6 +15,8 @@ Grbls lead developer is Simen Svale Skogsrud. Sonney Jeon (Chamnit) improved som
 A fork by bkubicek for the Ultimaker was merged, and further development was aided by him.
 Some features have been added by:
 Lampmaker, Bradley Feldman, and others...
+Neil Darlow added Mendel90 specific stuff.
+Liam Marshall forked it to **this repo** and modified it for his Mendel90 Sturdy.
 
 
 Features:
