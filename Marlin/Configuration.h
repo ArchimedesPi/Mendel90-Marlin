@@ -2,10 +2,10 @@
 #define CONFIGURATION_H
 
 // Mendel90 Z-axis height adjustment
-#define Z_HEIGHT_MM 203.0
+#define Z_HEIGHT_MM 213.1
 
 // Mendel90 hobbed bolt and 39:11 Wade's gears
-#define E_STEPS_PER_MM ((3200 * 39.0)/(11.0 * 6.75 * 3.142)) * (100.0/100.0)
+#define E_STEPS_PER_MM 642
 
 // This configuration file contains the basic settings.
 // Advanced settings can be found in Configuration_adv.h
@@ -506,7 +506,7 @@ const bool Z_MAX_ENDSTOP_INVERTING = false; // set to true to invert the logic o
 
 // default settings
 
-#define DEFAULT_AXIS_STEPS_PER_UNIT   {80,80,200*16/1,E_STEPS_PER_MM}  // default steps per unit for Ultimaker
+#define DEFAULT_AXIS_STEPS_PER_UNIT   {80,80,2560,E_STEPS_PER_MM}  // default steps per unit for Ultimaker
 #define DEFAULT_MAX_FEEDRATE          {400, 400, 4, 30}    // (mm/sec)
 #define DEFAULT_MAX_ACCELERATION      {2000,2000,150,5000}    // X, Y, Z, E maximum start speed for accelerated moves. E default values are good for Skeinforge 40+, for older versions raise them a lot.
 
