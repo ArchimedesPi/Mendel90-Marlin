@@ -2,7 +2,7 @@
 #define CONFIGURATION_H
 
 // Mendel90 Z-axis height adjustment
-#define Z_HEIGHT_MM 213.1
+#define Z_HEIGHT_MM 213.4
 
 // Mendel90 hobbed bolt and 39:11 Wade's gears
 #define E_STEPS_PER_MM 642
@@ -37,7 +37,7 @@
 #define SERIAL_PORT 0
 
 // This determines the communication speed of the printer
-#define BAUDRATE 115200
+#define BAUDRATE 250000
 
 // This enables the serial port associated to the Bluetooth interface
 //#define BTENABLED              // Enable BT interface on AT90USB devices
