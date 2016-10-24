@@ -2,7 +2,7 @@
 #define CONFIGURATION_H
 
 // Mendel90 Z-axis height adjustment
-#define Z_HEIGHT_MM 213.41
+#define Z_HEIGHT_MM 212.77
 
 // Mendel90 hobbed bolt and 39:11 Wade's gears
 #define E_STEPS_PER_MM 642*2
